@@ -1,6 +1,20 @@
 
+/**
+ * @file RoombaNode.cpp
+ * @author Lowell Lobo
+ * @brief Function implementation for Roomba node library
+ * @version 0.1
+ * @date 2023-11-25
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
 #include "RoombaNode.hpp"
 
+/**
+ * @brief Construct a new Roomba:: Roomba object
+ * 
+ */
   Roomba::Roomba() : Node("Roomba_walker") {
 
     publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
@@ -11,6 +25,11 @@
                   std::placeholders::_1));
   }
 
+/**
+ * @brief add implementation to Roomba detect_obstacle function
+ * 
+ * @param image 
+ */
   void Roomba::detect_obstacle(const sensor_msgs::msg::Image& image) {
 
     auto velocity = geometry_msgs::msg::Twist();
