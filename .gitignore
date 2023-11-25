@@ -2,3 +2,6 @@ build/
 log/
 install/
 .vscode/
+src/obstacle_control/.cache/
+src/.vscode/
+src/obstacle_control/.vscode/
