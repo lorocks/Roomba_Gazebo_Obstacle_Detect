@@ -5,18 +5,18 @@
  * @brief Call and spin the Roomba node
  * @version 0.1
  * @date 2023-11-25
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 #include "RoombaNode.hpp"
 
 /**
  * @brief Main implementation
- * 
- * @param argc 
- * @param argv 
- * @return int 
+ *
+ * @param argc
+ * @param argv
+ * @return int
  */
 int main(int argc, char* argv[]) {
   rclcpp::init(argc, argv);
