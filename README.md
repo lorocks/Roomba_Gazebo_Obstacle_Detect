@@ -1,6 +1,6 @@
 # Roomba_Gazebo_Obstacle_Detect
 ## Overview
-Implementation of Obstacle Avoiding Roomba in Gazebo using Turtlebot3 Package
+Implementation of Obstacle Avoiding Roomba in Gazebo using Turtlebot3 Package.
 
 ## Dependencies
  - Ubuntu 22.04
@@ -43,3 +43,10 @@ Implementation of Obstacle Avoiding Roomba in Gazebo using Turtlebot3 Package
 # Play the ros2 bag file
   ros2 bag play results/ros2bag/
 ```
+
+## Tests
+Unit tests can be done using the Roomba.hpp file found in the include/obstacle_control directory
+
+## Results
+ - Roomba: contains cppcheck and cpplint output results
+ - ros2bag: contains ros2 bag database
