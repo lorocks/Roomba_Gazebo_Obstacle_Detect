@@ -24,6 +24,8 @@ Implementation of Obstacle Avoiding Roomba in Gazebo using Turtlebot3 Package.
   colcon build
 # source underlay
   source install/setup.sh
+# export TURTLEBOT3 MODEL
+  export TURTLEBOT3_MODEL=waffle
 ```
 
 ## Run Commands
